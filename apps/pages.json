@@ -1,0 +1,66 @@
+{
+  "title": "Cape Cod Water Quality & Sites",
+  "subtitle": "Work management demo \u00b7 sample data",
+  "layout": "dispatch",
+  "webmapId": "c4268d268a544d909a23cb9d627fd0d0",
+  "portalUrl": "https://dogtoothtuna.maps.arcgis.com",
+  "requireSignIn": false,
+  "user": {
+    "username": "demo-dispatcher",
+    "fullName": "H. Burnham"
+  },
+  "chat": {
+    "backendUrl": "/bridge/demo",
+    "servers": [
+      {
+        "name": "arcgis_portal_mcp",
+        "enabled": true,
+        "tools": [
+          "get_item_details",
+          "list_layers",
+          "describe_layer",
+          "query_features",
+          "get_item_data",
+          "count_features",
+          "summarize_features"
+        ]
+      },
+      {
+        "name": "local-map-controls",
+        "enabled": true
+      },
+      {
+        "name": "xb_sql_mcp",
+        "enabled": true
+      }
+    ],
+    "model": "",
+    "customModelId": "",
+    "maxTokens": 0,
+    "systemExtension": "",
+    "welcomeMessage": "Work-management demo for a (fictional) Cape Cod water-quality & contaminated-sites program. The map, layers, map tools, cards and record editing are live in your browser; the AI chat replays a recorded session \u2014 pick the questions below in order.",
+    "starterQuestions": [
+      "What's overdue across the program right now?",
+      "How is this month's sampling run going, by embayment?",
+      "Which active 21E sites are inside a potential plume, and what open work do they have?",
+      "Show open workload by crew lead for the next 30 days",
+      "Schedule annual AUL compliance inspections for every AUL site in Barnstable"
+    ],
+    "enableChips": true,
+    "chipsSkipThreshold": 8,
+    "highlightColor": "#00c2ff",
+    "placeholder": "Pick a demo question below\u2026"
+  },
+  "insights": {
+    "title": "Reports",
+    "emptyMessage": "Charts, tables and timelines appear here: ask the chat for a report.",
+    "chartHeight": 260,
+    "highlightColor": "#fff76b",
+    "zoomOnSelect": true
+  },
+  "demo": {
+    "replay": true,
+    "videoUrl": "",
+    "note": "Portfolio demo: map layers are public Cape Cod / MassDEP data; people and work activities are generated sample data; the AI chat replays a recorded session of the live app."
+  }
+}

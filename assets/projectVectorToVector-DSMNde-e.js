@@ -1,0 +1,1 @@
+import{am as s,bS as t,bP as f,T as m}from"./index-ghjprrdh.js";import{n as o}from"./projectPointToVector-CAhNmwSJ.js";function i(n,a,l,e){return!(a==null||e==null||n.length<2)&&(s(a,e)?t(n,a,0,l,e,0,1):(r.x=n[0],r.y=n[1],r.z=n[2],r.spatialReference=a,o(r,l,e)))}const r=f(0,0,0,m.WGS84);export{i as p};
