@@ -2,6 +2,8 @@
 
 **Live demo:** https://thegreylady.github.io/cape-cod-work-demo/
 
+[![Demo screenshot](og-image.png)](https://thegreylady.github.io/cape-cod-work-demo/)
+
 A portfolio demo of a GIS work-management app built on the **ArcGIS Maps SDK for JavaScript 5** (React + TypeScript). It shows a fictional Cape Cod water-quality and contaminated-sites program: monitoring stations sampled each month, active MassDEP Chapter 21E cleanup sites, and sites with Activity & Use Limitations (AULs).
 
 **What you can try**
